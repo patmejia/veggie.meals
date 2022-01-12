@@ -1,0 +1,68 @@
+<!-- create a webspage that is an html only form with all the input fields and a submit buttons -->
+<html>
+<head>
+    <title>Form Example</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <!-- add meta tag for phone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- add meta tag for apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+    <h1>Form Example</h1>
+    <p>This is a paragraph.</p>
+    <form action="form.php" method="post">
+        <label for="Username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="First Name">
+
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Email">
+        <br>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- add another simple html form with a checkbox, range, and radio button to collect patient health information -->
+    <form action="form.php" method="post">
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br>
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" min="0" max="10">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="1">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="2">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="3">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="4">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="5">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="6">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="7">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="8">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="9">
+        <br>
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio" id="radio" value="10">
+        <br>
+        <input type="submit" value="Submit">    
+    </form>
+</body>
+</html>
