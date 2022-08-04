@@ -1,6 +1,6 @@
 # veggie.meals
 
-# Visit this webpage [here](https://patree-code.github.io/veggie.meals/)
+# Visit this webpage [here](https://mejia-code.github.io/veggie.meals/)
 
 > Tags: Copilot, Html, CSS, JS
 
